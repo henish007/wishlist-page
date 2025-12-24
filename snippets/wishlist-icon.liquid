@@ -1,0 +1,21 @@
+<div class="add-to-wishlist pro_btn">     
+  <div class="show">
+    <div class="default-wishbutton-{{ product.handle }} loading"><a class="add-in-wishlist-js btn" href="{{ product.handle | handleize }}">
+      <svg class="wishlist-icon" version="1.0" xmlns="http://www.w3.org/2000/svg" width="134.000000pt" height="123.000000pt" viewBox="0 0 134.000000 123.000000" preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,123.000000) scale(0.100000,-0.100000)" stroke="none">
+          <path d="M252 1210 c-83 -28 -156 -89 -199 -166 -75 -137 -57 -306 50 -466 51 -76 266 -299 440 -455 l127 -115 128 115 c173 156 388 379 439 455 107 160 125 329 50 466 -111 202 -372 244 -569 93 l-48 -37 -47 37 c-115 87 -247 113 -371 73z m223 -139 c54 -24 100 -64 115 -101 12 -29 14 -30 80 -30 66 0 68 1 80 30 28 68 130 124 225 123 133 -1 225 -94 225 -227 0 -73 -22 -136 -78 -220 -46 -69 -231 -262 -375 -390 l-77 -68 -77 68 c-144 128 -329 321 -375 390 -56 84 -78 147 -78 220 0 176 167 278 335 205z"/>
+        </g>
+      </svg>
+      <span class="tooltip-label">{{ 'products.wishlist.add_to_wishlist' | t }}</span></a></div>
+    <div class="loadding-wishbutton-{{ product.handle }} loading" style="display: none; pointer-events: none"><a class="add_to_wishlist" href="{{ product.handle | handleize }}"><i class="mdi mdi-refresh mdi-spin"></i></a></div>
+    <div class="added-wishbutton-{{ product.handle }} loading" style="display: none;"><a class="added-wishlist add_to_wishlist btn" href="/pages/wishlist">
+      <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+           width="134.000000pt" height="123.000000pt" viewBox="0 0 134.000000 123.000000"
+           preserveAspectRatio="xMidYMid meet">
+        <g transform="translate(0.000000,123.000000) scale(0.100000,-0.100000)" stroke="none">
+          <path d="M252 1210 c-83 -28 -156 -89 -199 -166 -75 -137 -57 -306 50 -466 51 -76 266 -299 440 -455 l127 -115 128 115 c173 156 388 379 439 455 107 160 125 329 50 466 -111 202 -372 244 -569 93 l-48 -37 -47 37 c-115 87 -247 113 -371 73z"/>
+        </g>
+      </svg>
+      <span class="tooltip-label">{{ 'products.wishlist.view_wishlist' | t }}</span></a></div>
+  </div>
+</div>
