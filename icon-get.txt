@@ -1,0 +1,2 @@
+//This code should be placed wherever the icon is to be displayed.//
+{% render 'wishlist-icon', product: product %}
